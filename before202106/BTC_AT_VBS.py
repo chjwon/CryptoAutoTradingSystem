@@ -6,15 +6,15 @@ from Slack import post_message
 
 accessTXT = open('access.txt','r')
 access = accessTXT.read()
-accessTXT.close()
+# accessTXT.close()
 
 secretTXT = open('secret.txt','r')
 secret = secretTXT.read()
-secretTXT.close()
+# secretTXT.close()
 
 myTokenTXT = open('myToken.txt','r')
 myToken = myTokenTXT.read()
-myTokenTXT.close()
+# myTokenTXT.close()
 
 
 # Get the aiming price
