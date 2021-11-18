@@ -4,15 +4,15 @@ import datetime
 import VBS_model as md
 from Slack import post_message
 
-accessTXT = open('access.txt','r')
+accessTXT = open('access.txt', 'r')
 access = accessTXT.read()
 # accessTXT.close()
 
-secretTXT = open('secret.txt','r')
+secretTXT = open('secret.txt', 'r')
 secret = secretTXT.read()
 # secretTXT.close()
 
-myTokenTXT = open('myToken.txt','r')
+myTokenTXT = open('slackToken.txt', 'r')
 myToken = myTokenTXT.read()
 # myTokenTXT.close()
 
