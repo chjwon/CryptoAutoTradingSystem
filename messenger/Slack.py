@@ -1,6 +1,6 @@
 import requests
 
-slackTokenTXT = open('slackToken.txt', 'r')
+slackTokenTXT = open('messenger/slackToken.txt', 'r')
 slackToken = slackTokenTXT.read()
 
 

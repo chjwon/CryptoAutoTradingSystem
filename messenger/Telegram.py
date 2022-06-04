@@ -1,10 +1,10 @@
 import telegram
 # pip install python-telegram-bot
 # @Testbot0000
-telegramTokenTXT = open('telegramToken.txt', 'r')
+telegramTokenTXT = open('messenger/telegramToken.txt', 'r')
 telegramToken = telegramTokenTXT.read()
 
-telegramChatIdTXT = open('telegramChatId.txt', 'r')
+telegramChatIdTXT = open('messenger/telegramChatId.txt', 'r')
 telegramChatId = telegramChatIdTXT.read()
 
 
